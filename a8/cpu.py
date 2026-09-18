@@ -1,5 +1,5 @@
-from . import memory
-from . import instructions
+import memory
+import instructions
 
 class CPU:
     def __init__(self):

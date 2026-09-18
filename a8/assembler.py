@@ -1,4 +1,4 @@
-from . import instructions
+import instructions
 
 SYNTAX = {
     "MOV": ["register", "value"],

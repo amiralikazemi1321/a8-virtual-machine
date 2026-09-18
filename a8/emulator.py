@@ -1,6 +1,6 @@
-from . import memory
-from . import cpu
-from . import assembler
+import memory
+import cpu
+import assembler
 
 
 def run(source):
