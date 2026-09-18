@@ -100,36 +100,25 @@ python -m a8.emulator
 The emulator will ask for the path to an A8 program:
 
 programs/hello.a8
-Running Tests
 
-A8 uses pytest for automated testing.
+project tree:
 
-Run all tests with:
-
-python -m pytest
-
-Example:
-
-14 passed
-Project Structure
 a8/
-├── README.md
-├── pyproject.toml
-├── docs/
-│   └── architecture.md
-├── a8/
-│   ├── __init__.py
-│   ├── cpu.py
-│   ├── memory.py
-│   ├── instructions.py
+├── a8
 │   ├── assembler.py
-│   └── emulator.py
-├── programs/
+│   ├── cpu.py
+│   ├── emulator.py
+│   ├── __init__.py
+│   ├── instructions.py
+│   └── memory.py
+├── docs
+│   └── architecture.md
+├── programs
 │   └── hello.a8
-└── tests/
-    ├── test_cpu.py
-    ├── test_memory.py
-    └── test_instructions.py
+├── pyproject.toml
+└── README.md
+
+4 directories, 10 files
 License
 
 A8 is released under the MIT License.
